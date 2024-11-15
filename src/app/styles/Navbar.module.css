@@ -1,0 +1,44 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .glass {
+    background: rgba(255, 255, 255, 0.2); /* Glassy background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .normal {
+    background: #fff; /* Solid background */
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .links a:hover {
+    color: #4979ff;
+  }
+  
